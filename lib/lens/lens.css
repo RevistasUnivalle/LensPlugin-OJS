@@ -1372,21 +1372,22 @@ body.loading .spinner-wrapper {
 #MathJax_Message {
   display: none; }
 
-.back-button {
-   display: block;
-   position: absolute;
-   top: 0px;
-   right: 0px;
-   z-index: 30000;
-   padding: 9.5px;
-   border-left: 1px solid #ddd;
-   border-bottom: 1px solid #ddd;
-   color: black;
-   font-size: 13px;
+  .back-button {
+    display: block;
+    position: absolute;
+    top: 0px;
+    z-index: 30000;
+    padding: 9.5px;
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    font-size: 15px;
+    margin-left: 30px;
+    border-right: 1px solid #ddd;
+    background: white;
 }
 
 .back-button:hover {
-   background-color: rgba(0, 0, 0, 0.05);
+  background-color: rgb(228, 228, 228);
 }
 
 

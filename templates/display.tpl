@@ -1,14 +1,13 @@
 {**
  * plugins/generic/lensGalley/display.tpl
  *
- * Copyright (c) 2014-2016 Simon Fraser University Library
- * Copyright (c) 2003-2016 John Willinsky
+ * Copyright (c) 2014-2018 Simon Fraser University
+ * Copyright (c) 2003-2018 John Willinsky
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
- * Embedded viewing of a PDF galley.
+ * Embedded viewing of a JATS XML galley.
  *}
-
-<script src="{$pluginLensPath}/lib/jquery.min.js"></script>
+<script src="{$jQueryUrl}"></script>
 <script src="{$pluginLensPath}/lens.js"></script>
 <script src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script src="{$pluginLensPath}/lensAdd.js" defer></script>
@@ -27,8 +26,4 @@
 		app.start();
 		window.app = app;
 	});
-
 {/literal}</script>
-
-
-

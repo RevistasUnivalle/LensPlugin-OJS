@@ -1086,9 +1086,9 @@ TOC
   display: inline; }
 
 .resource-view.toc .heading-ref.active {
-  color: rgb(75, 70, 145);
+  color: rgba(0, 0, 0, 0.9);
   background: #fff;
-  border-right: 2px solid rgb(75, 70, 145); }
+  border: 1px solid #eee; }
 
 .resource-view.toc .heading-ref.level-2 {
   padding-left: 20px;
@@ -1107,7 +1107,7 @@ TOC
   font-size: 14px; }
 
 .resource-view.toc .heading-ref:hover {
-  color: rgb(75, 70, 145); }
+  color: black; }
 
 /* Scrollbar
 --------------------------------------- */
@@ -1216,7 +1216,7 @@ General Layout
 #container {
   position: relative;
   margin: 0 auto;
-  min-width: 700px; }
+  min-width: 800px; }
 
 /* In reader view */
 body.reader #container {
@@ -1372,7 +1372,7 @@ body.loading .spinner-wrapper {
 #MathJax_Message {
   display: none; }
 
-  .back-button {
+ .back-button {
     display: block;
     position: absolute;
     top: 0px;
@@ -1390,5 +1390,3 @@ body.loading .spinner-wrapper {
 .back-button:hover {
   background-color: rgb(228, 228, 228);
 }
-
-
